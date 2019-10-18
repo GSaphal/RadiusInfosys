@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.embed-responsive
+{
+	height:300px!important;
+}
+body
+{
+		font-family: 'Open Sans', sans-serif;
+	overflow-x:hidden;
+
+}
+
+#header
+{
+	background:url("../img/cover.jpg") no-repeat center;
+	min-height:937px;
+}
+#logo{
+	margin-top: -10px;
+	height:30px;
+	width:30px;
+}
+.header-inner
+{
+	background: rgba(0,0,0,0.70);
+	min-height:937px;
+}
+.navbar-default
+{
+	background-color: transparent;
+	border:0px;
+}
+.navbar-default .navbar-nav>li>a
+{
+	padding-top:30px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+	color:white!important;
+	line-height: 21px;
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus
+{
+	background: none;
+	color:#255FBC!important;
+	font-weight: bold;
+	font-size: 16px;
+}
+ .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover
+{
+	color:#255FBC!important;
+	background: none;
+	transition: 0.2s all;
+}
+.team-quotes
+{
+	margin-top: 300px;
+font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size:50px;
+	color:white;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+.team-quotes span
+{
+		color:#255FBC;
+}
+.team-quotes h3
+{
+	margin-top: 40px;
+	font-size: 42px;
+	text-transform: none;
+	font-family: 'Satisfy', cursive;
+	margin-bottom:60px;
+
+}
+.main-btn
+{
+	margin:10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	border-radius: 0px;
+	color:white!important;
+	font-size:18px;
+	line-height: 26px;
+	min-width: 170px;
+	min-height: 50px;
+	background: none;
+	border:2px solid white;	
+}
+.main-btn:hover
+{
+	background: #255FBC;
+	color:white!important;
+	transition: 0.4s all;
+}
+.top-nav-collapse
+{
+	background:#030304;
+	min-height:90px;
+	transition: 0.2s all;
+}
+/*ABOUT US*/
+
+#about
+{	
+	min-height:960px;
+	background: white;
+}
+.about-row{
+	margin-top: 130px;
+}
+.about-text h1
+{
+	font-size: 40px;
+	text-transform: uppercase;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color:#413E66;
+font-family: 'Montserrat', sans-serif;
+}
+.about-text p
+{
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.about-btn
+{
+	border-radius: 0px;
+	border:2px solid black;
+	background:none;
+	font-size:18px;
+	min-width: 170px;
+	min-height: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;	
+
+}
+.about-btn:hover
+{
+background: #255FBC;
+	color:white!important;
+	transition: 0.4s all;
+}
+#services
+{	
+	min-height:939px;
+	background: #F5F8FD;
+}
+.services-row{
+	margin-top: 130px;
+}
+.services-row h1
+{
+	font-size: 40px;
+		line-height: 58px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color:#413E66;
+font-family: 'Montserrat', sans-serif;
+}
+.services-row h6
+{
+		line-height: 38px;
+	font-weight: 300;
+	margin-bottom: 60px;
+	color:#413E66;
+	font-size: 18px;
+}
+.services-box
+{
+	
+	height:200px;
+	width:270px;
+	background: white;
+	border-radius: 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+	margin:0 10px 40px 20px;
+	}
+.services-box:hover
+{    
+  transform: scale(1.1,1.1);
+	transition: all 0.3s ease-in-out;
+	border:1px solid black;
+}
+.services-box .fas
+{
+	font-size:60px;
+	margin-top:30px;
+	color:#255FBC;
+	
+}
+
+.services-text h1
+{
+		font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	font-weight: 700;
+		font-family: 'Open Sans', sans-serif;
+
+}
+#teams
+{	
+	min-height:940px;
+	background: white;
+}
+.team-row
+{
+	margin-top: 100px;
+}
+.team-row h1{
+		font-size: 40px;
+		line-height: 58px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color:#413E66;
+font-family: 'Montserrat', sans-serif;
+}
+.team-row h6
+{
+			line-height: 38px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	color:#413E66;
+	font-size: 18px;
+}
+.team-box1
+{
+	height:320px;
+	width:300px;
+	background: url("../img/saphal.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}.team-box2
+{
+	height:320px;
+	width:300px;
+	background: url("../img/nipesh.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}.team-box3
+{
+	height:320px;
+	width:300px;
+	background: url("../img/samrat.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}.team-box4
+{
+	height:320px;
+	width:300px;
+	background: url("../img/milan.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}.team-box5
+{
+	height:320px;
+	width:300px;
+	background: url("../img/bibek.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}.team-box6
+{
+	height:320px;
+	width:300px;
+	background: url("../img/rojen.jpg");
+	position:relative;
+	overflow: hidden;
+		margin: 10px;
+}
+.team-box-inner
+{
+	height:80px;
+	width:300px;
+	background-color: rgba(0,0,0,0.6);
+	position:absolute;
+	bottom:0px;
+	transition: 0.2s all;
+}
+.team-box-inner:hover
+{
+	height:130px;
+	transition: 0.2s all;
+}
+.team-box-inner h3
+{
+	color:white;
+	font-weight: 700px;
+	font-size: 20px;
+}
+.team-box-inner h5
+{
+	color:white;
+	font-weight: 300px;
+	font-size: 14px;
+	
+}
+.team-icons .fab
+{
+	margin-top: 10px;
+	font-size: 20px;
+	color:white;
+	margin:10px;
+}
+.team-icons .fab:hover
+{
+	color:#255FBC;
+}
+
+#contact
+{	
+	min-height:770px;
+	background: white;
+	margin-bottom: 30px;
+}
+.contact-row
+{
+	margin-top:100px;
+}
+.contact-row h1
+{
+			font-size: 40px;
+		line-height: 58px;
+	font-weight: 700;
+	margin-bottom:80px;
+	text-transform: uppercase;
+	color:#413E66;
+font-family: 'Montserrat', sans-serif;
+}
+.map-address .fas,.map-address .far
+{
+	margin: 10px;
+}
+footer
+{
+	background:black;
+	height:80px;
+}.footer-text
+{
+
+	font-weight: 300;
+	margin-top: 20px;
+	color:white;
+	font-size: 18px;
+}
+@media only screen and (max-width: 767px)
+{
+	.team-col{
+		margin: 10px;
+	}
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form
+	{
+		background: black;
+		border-color:transparent;
+	}
+	
+		.navbar-default .navbar-toggle
+	{
+	outline: none !important;
+	box-shadow: none!important;
+	border:0px;
+	}
+	.services-box
+	{
+		display: block;
+		margin:auto;
+	}
+	.navbar-default .navbar-toggle:hover{
+		background: none;
+	}
+	.team-box1,.team-box2,.team-box3,.team-box4,.team-box5,.team-box6
+	{
+		margin:auto;
+	}
+        .footer-text
+        {
+        font-size:12px;
+       
+        }
+
+}
